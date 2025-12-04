@@ -16,8 +16,6 @@ Purchase control (insufficient funds → error SFX, sufficient founds → purcha
 
 Event-driven architecture
 
-OnMarketItemClicked
-
 Player progression is saved and loaded with JSON system
 
 ![Image](https://github.com/user-attachments/assets/b19379f4-8718-401a-a98a-5fad4a0da3ac)
