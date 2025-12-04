@@ -20,10 +20,7 @@ OnMarketItemClicked
 
 Player progression is saved and loaded with JSON system
 
-
-▶ Demo Video
-
-(Buraya YouTube Unlisted linkini koy)
+![Image](https://github.com/user-attachments/assets/b19379f4-8718-401a-a98a-5fad4a0da3ac)
 
 🛠 Technical Info
 
