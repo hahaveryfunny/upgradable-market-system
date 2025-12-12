@@ -1,27 +1,42 @@
-# upgradable-market-system
-🛒 Market System (Unity)
-Overview
+# 🛒 Upgradable Market System (Unity)
 
-This project shows the main building blocks of a market system in a game. Player can see new items their prices and can purchase items with the in game money and upgrade the items. The system is based on an event driven system that uses data-runtime difference, UI updates, save/load systems.
+## Overview
 
-Features
+This project showcases the core building blocks of an **upgradable market system** in a game.
 
-SO based data base
+Players can browse items, view their prices, purchase them using in-game currency, and upgrade owned items.  
+The system is built using an **event-driven architecture** and clearly separates **data and runtime state**, while handling UI updates and save/load logic.
 
-Runtime item state (unlocked, current level, owned amount etc.)
+This repository is intended as a **system showcase**, not a full game.
 
-Dynamic UI generation (market items are automatically generated)
+---
 
-Purchase control (insufficient funds → error SFX, sufficient founds → purchase completion, SFX)
+## ✨ Features
 
-Event-driven architecture
+- **ScriptableObject-based item database**
+- **Runtime item state management**  
+  (unlocked status, current level, owned amount, etc.)
+- **Dynamic UI generation**  
+  (market items are created automatically at runtime)
+- **Purchase validation & feedback**
+  - Insufficient funds → error SFX
+  - Successful purchase → completion SFX
+- **Event-driven architecture**
+- **Player progression persistence** using JSON save/load
 
-Player progression is saved and loaded with JSON system
+---
+
+## 🛠 Technical Info
+
+- **Unity Version:** 2022.3.x  
+- **Platform:** Mobile  
+- **Technologies Used:**  
+  - Unity C#  
+  - ScriptableObjects  
+  - Event System  
+  - JSON Save/Load  
+  - Dynamic UI generation  
+
+🎥 Demo videos are included to visually demonstrate the system behavior.
 
 ![Image](https://github.com/user-attachments/assets/b19379f4-8718-401a-a98a-5fad4a0da3ac)
-
-🛠 Technical Info
-
-Unity Version: 2022.3.x
-Platform: Mobile
-Technologies used: ScriptableObjects, Event System, JSON save, Dynamic UI
