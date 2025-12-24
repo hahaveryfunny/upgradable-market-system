@@ -39,4 +39,4 @@ This repository is intended as a **system showcase**, not a full game.
 
 🎥 Demo videos are included to visually demonstrate the system behavior.
 
-![Image](https://github.com/user-attachments/assets/b19379f4-8718-401a-a98a-5fad4a0da3ac)
+ ![Controller Demo](market.gif)
